@@ -37,6 +37,14 @@ public class Categoria implements Serializable {
         this.descricao = descricao;
     }
 
+    public List<Livro> getLivros() {
+        return livros;
+    }
+
+    public void setLivros(List<Livro> livros) {
+        this.livros = livros;
+    }
+
     // Getters e Setters
     public Integer getId() {
         return id;
